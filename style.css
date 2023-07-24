@@ -1,0 +1,68 @@
+:root {
+    --main-color: #232323;
+    --p-color: #2b2d31;
+}
+
+body {
+    margin: 0;
+    background: var(--main-color);
+}
+.imagediv {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    height: 600px;
+    width: 600px;
+}
+
+.maintitle {
+    margin: 0 0 20px;
+    display: block;
+    font-size: 80px;
+}
+
+.titlediv {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+main {
+    padding-top: 40px;
+}
+
+.linkbutton a {
+    text-decoration: none;
+}
+
+.linkbutton {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 180px;
+    background: var(--p-color);
+    margin: 0 20px;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.titlediv ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
