@@ -12,7 +12,7 @@ body {
     justify-content: center;
 }
 
-img {
+.imagediv img {
     position: absolute;
     bottom: 0;
     height: 600px;
@@ -20,16 +20,17 @@ img {
 }
 
 .maintitle {
-    margin: 0 0 20px;
+    margin: 20px 0;
     display: block;
     font-size: 80px;
+    text-shadow: white 0 0 10px ;
 }
 
 .titlediv {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -65,4 +66,8 @@ ul {
     margin-top: 40px;
     display: flex;
     justify-content: center;
+}
+
+.linkbutton :hover {
+    text-shadow: white 0 0 10px;
 }
